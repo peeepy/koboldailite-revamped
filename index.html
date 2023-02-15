@@ -9602,24 +9602,6 @@ Current version: 9
 			background: #3e3e3e none repeat scroll 0 0;
 		}
 
-		.chat_msg_menu_btn {
-			background: #20212400 none repeat scroll 0 0;
-			border: none;
-			border-radius: 50%;
-			color: #fff;
-			cursor: pointer;
-			font-size: 15px;
-			height: 33px;
-			position: absolute;
-			right: 0;
-			top: 20px;
-			width: 40px;
-			background-size: 64% !important;
-			background-repeat: no-repeat !important;
-			background-position: center !important;
-			background-image: url("https://i.imgur.com/mDPNfTv.png") !important;
-		}
-
 
 		.chat_msg_history {
 			height: 72vh;
@@ -12038,7 +12020,7 @@ Current version: 9
 
 				if (curr.myturn) {
 					let namepart = (curr.name != "" ? `<span style="font-weight: bolder;font-size: 14px;color:#fff;">${curr.name} </span><span style="color: #9a9a9a;font-size: 12px;"">${formattedTime}</span><br>` : "");
-					newbodystr += `<div class="chat_outgoing_msg"><div class="chat_sent_msg"><div class="chatname_avatar"><img src="https://i.imgur.com/JKuTHJc.png"/></div><p>` + namepart + curr.msg + `</p></div><img src="https://i.imgur.com/QmuncTe.png" id="btn_editmode_chat"
+					newbodystr += `<div class="chat_outgoing_msg"><div class="chat_sent_msg"><div class="chatname_avatar"><img src="https://i.imgur.com/f6YXYg3.png"/></div><p>` + namepart + curr.msg + `</p></div><img src="https://i.imgur.com/QmuncTe.png" id="btn_editmode_chat"
 						onclick="btn_editmode()"></button></div>`;
 				} else {
 					let namepart = (curr.name != "" ? `<span style="font-weight: bolder;font-size: 14px;color:#fff;">${curr.name} </span><span style="color: #9a9a9a;font-size: 12px;"">${formattedTime}</span><br>` : "");
